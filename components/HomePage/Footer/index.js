@@ -5,7 +5,7 @@ import Button from '../../modules/Button'
 
 function Footer() {
     return (
-        <section className="bg-black/90 text-white">
+        <section className="bg-hero bg-black/90 text-white">
             <div className="px-5 pt-20 pb-8 lg:px-10 xl:max-w-6xl xl:mx-auto xl:px-0">
                 <div className="flex flex-col gap-8 md:flex-row">
                     <div className="md:w-56 lg:w-2/4">
@@ -136,7 +136,7 @@ function Footer() {
                     </div>
 
                     <div className="mr-8 py-5">
-                        <Button title="Subscribe" className="bg-indigo-700 text-white p-2 w-full text-lg font-medium" />
+                        <Button title="Subscribe" fullWidth={true} />
                     </div>
                 </div>
 

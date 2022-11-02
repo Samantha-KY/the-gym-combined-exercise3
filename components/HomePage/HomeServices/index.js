@@ -5,7 +5,7 @@ import Button from '../../modules/Button'
 import ServiceCard from '../../modules/ServiceCard'
 function HomeServices() {
     return (
-        <section className='bg-black/90'>
+        <section className='bg-hero bg-black/90'>
             {/* <img src='background.png' alt='back' className='absolute w-full h-full object-cover' /> */}
             <div className='flex flex-col gap-10 px-6 pb-20 md:flex-row md:px-20 md:gap-[8rem] max-w-7xl mx-auto'>
                 <h1 className='text-white font-bold text-4xl pt-20 md:mt-5'>Our services</h1>

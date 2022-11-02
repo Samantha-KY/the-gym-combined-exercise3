@@ -4,7 +4,7 @@ import Button from '../../modules/Button'
 
 function Position() {
     return (
-        <section className='bg-black/90 text-white'>
+        <section className='bg-hero bg-black/90 text-white'>
             {/* <img src='background.png' alt='back' className='absolute h-full w-full object-cover' /> */}
             <div className='flex flex-col justify-center px-6 py-20 gap-8 md:flex-row md:justify-start md:gap-[10rem] max-w-7xl mx-auto md:px-20 md:py-40'>
                 <div className='flex-col flex md:gap-10 gap-10'>

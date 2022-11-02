@@ -2,7 +2,7 @@ import React from "react";
 
 function Hero() {
     return (
-        <section className="bg-black/90 text-white">
+        <section className=" bg-hero bg-black/90 text-white">
             <div className="flex flex-col md:justify-center gap-6 px-6 pb-20 md:px-20 max-w-7xl mx-auto">
                 <h1 className="md:text-7xl text-5xl font-bold mt-20 leading-snug md:w-30 md:mt-40">
                     Results focused design &<br className="hidden md:block"/> development agency

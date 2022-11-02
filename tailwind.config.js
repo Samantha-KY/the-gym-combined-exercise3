@@ -4,7 +4,14 @@ module.exports = {
     "./pages/**/*.{js, jsx}", "./components/**/*.{js, jsx}"
   ],
   theme: {
-    extend: {},
+    extend: {
+      boxShadow: {
+        button: "0 0 20px 20px #5135FF inset",
+      },
+      backgroundImage: {
+        hero: "url('/background.png')",
+      },
+    },
   },
   plugins: [],
 }
