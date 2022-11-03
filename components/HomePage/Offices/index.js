@@ -7,7 +7,7 @@ function Offices() {
   return (
     <section className='text-black/90'>
         <div className='p-5 px-6 md:gap-20 md:flex md:flex-col md:px-20 md:py-40 max-w-7xl mx-auto'>
-            <h1 className='font-bold text-4xl md:text-5xl md:font-semibold'>Our Offices</h1>
+            <h1 className='font-cinnamonextrabold text-4xl md:text-5xl md:font-semibold'>Our Offices</h1>
             <div className='flex overflow-x-scroll gap-8 scrollbar-hide'>
             {DUMMY_OFFICE?.map((office, index)=>{
                 return(

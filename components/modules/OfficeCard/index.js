@@ -14,8 +14,8 @@ function OfficeCard({office}) {
         {/* <LocationIcon className="w-8 h-8" /> */}
         <img src='location.svg' alt='location' className="w-5 h-5"/>
         <div className="flex flex-col gap-3">
-          <p className="font-montBold">{town}</p>
-          <p className='font-normal'>{address}</p>
+          <p className="font-cinnamonextrabold text-2xl">{town}</p>
+          <p className='font-cinnamonextralight font-extrabold text-base md:w-[35rem]'>{address}</p>
           {/* <DescriptionCard>{address}</DescriptionCard> */}
         </div>
       </div>

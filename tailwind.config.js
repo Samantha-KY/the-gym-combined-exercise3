@@ -11,6 +11,12 @@ module.exports = {
       backgroundImage: {
         hero: "url('/background.png')",
       },
+      fontFamily:{
+        cinnamonbold: "cinnamonbold",
+        cinnamonextralight: "cinnamonextralight",
+        cinnamonsemibold: "cinnamonsemibold",
+        cinnamonextrabold: "cinnamonextrabold"
+      }
     },
   },
   plugins: [],

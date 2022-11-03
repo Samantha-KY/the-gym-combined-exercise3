@@ -13,3 +13,20 @@
   .bg-scroll {
     background-attachment: scroll;
   }
+
+@font-face {
+  font-family: "cinnamonextrabold";
+  src: url("/Mont-HeavyDEMO.otf");
+}
+@font-face {
+  font-family: "cinnamonsemibold";
+  src: url("/Mont-SemiBold.otf");
+}
+@font-face {
+  font-family: "cinnamonbold";
+  src: url("/Mont-Bold.otf");
+}
+@font-face {
+  font-family: "cinnamonextralight";
+  src: url("/Mont-ExtraLightDEMO.otf");
+}

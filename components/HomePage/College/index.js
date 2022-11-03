@@ -10,7 +10,7 @@ function College() {
       <div className="flex flex-col justify-center items-center gap-10 md:flex-row md:gap-[10rem] md:justify-start">
         <img src="college.webp" alt="college" className="h-[13rem] w-full md:h-[10rem] md:w-[20rem]" />
         <div className="md:flex md:flex-col md:gap-8">
-        <p className="text-black/80 text-lg">
+        <p className="text-black/80 text-base font-cinnamonextralight font-extrabold">
           Seize the unique opportunity to participate<br/> in a wide range of courses
           conducted by<br className="hidden md:block"/> professionals with an impeccable<br className="hidden md:block"/> reputation in the
           digital industry.

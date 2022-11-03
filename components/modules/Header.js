@@ -1,4 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
+import Link from "next/link";
 import React, { useState } from "react";
 import Button from "./Button";
 
@@ -6,21 +7,35 @@ function Header() {
   const [isScrolled, setIsScrolled] = useState(false);
   return (
     <section
-      className={`text-white w-full z-20 top-0 sticky ${
-        isScrolled ? "bg-white" : "bg-hero bg-black/90"
-      }`}
+      className={`text-white w-full z-20 top-0 sticky ${isScrolled ? "bg-white" : "bg-hero bg-black/90"
+        }`}
     >
       <div className="flex items-center justify-between gap:10 w-full p-6 m-0 max-w-7xl mx-auto md:px-20">
         <div>
-          <h1 className="text-3xl font-bold">CINNAMON</h1>
+          <h1 className="text-3xl font-cinnamonbold">CINNAMON</h1>
         </div>
         <div className="md:flex justify-between items-center gap-8 hidden">
-          <ul className="md:flex justify-between gap-4 hidden">
-            <li>Projects</li>
-            <li>Services</li>
-            <li>About Us</li>
-            <li>Carrers</li>
-            <li>Blog</li>
+          <ul className="md:flex justify-between gap-4 hidden font-cinnamonsemibold">
+            <Link href="/project">
+              <li>Projects</li>
+            </Link>
+
+            <Link href="/service">
+              <li>Services</li>
+            </Link>
+
+            <Link href="/about">
+              <li>About Us</li>
+            </Link>
+
+            <Link href="/career">
+              <li>Carrers</li>
+            </Link>
+
+            <Link href="/blog">
+              <li>Blog</li>
+            </Link>
+
           </ul>
           <div className="md:flex justify-between items-center gap-6 hidden -mt-1">
             <div
