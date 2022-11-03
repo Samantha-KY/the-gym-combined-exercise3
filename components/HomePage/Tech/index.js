@@ -19,15 +19,15 @@ const Tech = () => {
                 <img
                   src={imageUrl}
                   alt={title}
-                  className="w-[175px] h-[107px] md:h-[15rem] md:w-[35rem]"
+                  className="w-[10.938rem] h[6.688rem] md:h-[15rem] md:w-[35rem]"
                 />
                 <p className="uppercase text-sm font-cinnamonbold">{theme}</p>
-                <div className="flex justify-around items-center w-[175px]">
-                  <div className="w-[6px] h-[6px] bg-yellow-400 rounded-full" />
+                <div className="flex justify-around items-center w-[10.938rem]">
+                  <div className="w-[0.375rem] h-[0.375rem] bg-yellow-400 rounded-full" />
 
                   <p className="text-base font-cinnamonextralight font-extrabold">{date}</p>
 
-                  <div className="w-[6px] h-[6px] bg-yellow-400 rounded-full" />
+                  <div className="w-[0.375rem] h-[0.375rem] bg-yellow-400 rounded-full" />
 
                   <p className="text-base font-cinnamonextralight font-extrabold">{readingTime}</p>
 

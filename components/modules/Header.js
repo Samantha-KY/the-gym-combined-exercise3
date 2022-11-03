@@ -1,13 +1,23 @@
 /* eslint-disable @next/next/no-img-element */
 import Link from "next/link";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import Button from "./Button";
 
 function Header() {
-  const [isScrolled, setIsScrolled] = useState(false);
+  const [scrollOutOfRange, setScrollOutOfRange] = useState(false);
+
+  useEffect(() => {
+    if (typeof window !== "undefined") {
+      window.onscroll = () => {
+        window.pageYOffset > 50
+          ? setScrollOutOfRange(true)
+          : setScrollOutOfRange(false);
+      };
+    }
+  }, []);
   return (
     <section
-      className={`text-white w-full z-20 top-0 sticky ${isScrolled ? "bg-white" : "bg-hero bg-black/90"
+      className={`text-white w-full z-20 top-0 sticky ${scrollOutOfRange ? "bg-white text-black" : "bg-hero bg-black/90"
         }`}
     >
       <div className="flex items-center justify-between gap:10 w-full p-6 m-0 max-w-7xl mx-auto md:px-20">
@@ -39,10 +49,10 @@ function Header() {
           </ul>
           <div className="md:flex justify-between items-center gap-6 hidden -mt-1">
             <div
-              className={`w-fit h-fit bg-[#1C1C1C] border-[3px] transition-box-shadow duration-300 ease-in-out hover:shadow-button hover:border-[#5135FF] border-white
-            rounded-full p-2 cursor-pointer`}
+              className={`w-fit h-fit border-[0.188rem] transition-box-shadow duration-300 ease-in-out hover:shadow-button hover:border-indigo-600 border-white
+            rounded-full p-2 cursor-pointer ${scrollOutOfRange ? "bg-white border-indigo-600":"bg-zinc-900"}`}
             >
-              <img src="headerIcon.svg" alt="header" className="w-8 h-8 " />
+              <img src={`${scrollOutOfRange ? "headerScroll.svg":"headerIcon.svg"}`} alt="header" className='w-8 h-8 ' />
             </div>
             <Button title="Contact us" />
           </div>

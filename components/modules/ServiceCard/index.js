@@ -7,7 +7,7 @@ function ServiceCard({ service }) {
         <section className='flex flex-col gap-4 mt-5 z-10'>
             <img src={image} alt={title} className='h-10 w-10'/>
             <h1 className='font-cinnamonbold text-2xl text-white'>{title}</h1>
-            <p className='font-cinnamonextralight font-extrabold text-base text-white/75 w-[256px]'>{description}</p>
+            <p className='font-cinnamonextralight font-extrabold text-base text-white/75 w-[16rem]'>{description}</p>
         </section>
     )
 }

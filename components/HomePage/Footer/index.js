@@ -26,7 +26,7 @@ function Footer() {
                     </div>
 
                     <div className="lg:w-full">
-                        <h4 className="text-white text-2xl font-cinnamonextrabold lg:text-[32px] md:mt-20">
+                        <h4 className="text-white text-2xl font-cinnamonextrabold lg:text-[2rem] md:mt-20">
                             All software,
                             <br className="md:hidden" /> zero bullshit.
                         </h4>
@@ -58,7 +58,7 @@ function Footer() {
                             </div>
                             <div>
                                 <p className="font-cinnamonbold py-1">Belgrade</p>
-                                <p className="text-base font-cinnamonextralight font-extrabold leading-[27px] md:leading-6">
+                                <p className="text-base font-cinnamonextralight font-extrabold leading-[1.688rem] md:leading-6">
                                     Bulevar <br className="hidden md:block lg:hidden" />
                                     vojvode
                                     <br className="hidden md:block lg:hidden" /> Mišića
@@ -109,7 +109,7 @@ function Footer() {
                     </div>
                     <div>
                         <p className="font-cinnamonbold py-1">Belgrade</p>
-                        <p className="text-base font-cinnamonextralight font-extrabold leading-[27px]">
+                        <p className="text-base font-cinnamonextralight font-extrabold leading-[1.688rem]">
                             Bulevar vojvode Mišića <br /> 37
                         </p>
                         <p className="text-base font-cinnamonextralight font-extrabold pt-1">
@@ -146,7 +146,7 @@ function Footer() {
                         <img src='footerLogo2.webp' alt='footer' className='h-20 w-60' />
                     </div>
 
-                    <div className="text-white mt-10 hidden md:block lg:w-[285px]">
+                    <div className="text-white mt-10 hidden md:block lg:w-[17.813rem]">
                         <p className="font-cinnamonbold pt-10 pb-8">Our newsletter</p>
 
                         <div className="flex flex-col">
